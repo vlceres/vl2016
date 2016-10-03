@@ -1,0 +1,99 @@
+<style>
+h1.header
+{
+  color: blue;
+}
+p.header
+{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 20px;
+  border: 1px solid green;
+  border-left: 5px solid green;
+  background-color: #fcfffc;
+}
+p.body
+{
+  font-size: 18px;
+  font-weight: bold;
+  width:800px!important;
+}
+p.detail
+{
+  font-size: 16px;
+  font-weight: normal;
+  width:800px!important;
+}
+p.example
+{
+  color: blue;
+}
+p.code
+{
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  border-left: 5px solid black;
+  background-color:#f8f8f8;
+}
+code.code
+{
+  background-color:#f8f8f8;
+}
+hr.line
+{
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+  background-color: #aaaaaa;
+  height: 5px;
+}
+div.warn
+{    
+  padding: 5px;
+  border: 1px solid #dFb5b4;
+  border-left: 5px solid #dfb5b4;
+  background-color: #fcf2f2;
+}
+table.grid
+{
+  border-collapse: collapse;
+  margin-left: 0px;
+}
+table.inline
+{
+  display:inline-block;
+  border:none;
+}
+td.grid
+{
+  border: 1px solid;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+td.thick
+{
+  border: 2px solid white!important;
+  background-color: #D2DEEF;
+}
+td.thin
+{
+  border: 2px solid white!important;
+  background-color: #EAEFF7;
+}
+td.blank
+{
+  border: 2px solid white!important;
+  background-color: #FFFFFF;
+}
+font.emphasize
+{
+  color: red;
+  font-weight: bold;
+}
+font.topic
+{
+  color: orange;
+}
+</style>

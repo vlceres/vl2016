@@ -1,0 +1,23 @@
+{
+  "load_extensions": {
+    "rubberband/main": false,
+    "toggle_all_line_numbers/main": true,
+    "toc2/main": true,
+    "codefolding/main": true,
+    "equation-numbering/main": true,
+    "exercise/main": true,
+    "python-markdown/main": true,
+    "hide_input_all/main": true,
+    "table_beautifier/main": true,
+    "spellchecker/main": true,
+    "autoscroll/main": true,
+    "exercise2/main": true,
+    "latex_envs/latex_envs": true,
+    "scratchpad/main": false,
+    "runtools/main": true,
+    "limit_output/main": false,
+    "nbextensions_configurator/config_menu/main": true,
+    "hide_input/main": true,
+    "highlighter/highlighter": true
+  }
+}
