@@ -9,10 +9,10 @@ ENV LANGUAGE=C.UTF-8 \
     PATH=/usr/local/anaconda3/bin:.:/bin:/usr/bin:/usr/local/bin:/sbin:/usr/sbin:/usr/local/sbin
 
 RUN apt-get update --fix-missing && \
-    apt-get upgrade && \
+    apt-get upgrade -y && \
     apt-get install -y vim wget bzip2 curl grep sed dpkg \
     ca-certificates libglib2.0-0 libxext6 libsm6 libxrender1 \
-    git mercurial subversion npm && \
+    git mercurial subversion npm ttf-freefont && \
     apt-get clean
 
 RUN ln -s /usr/bin/nodejs /usr/bin/node
