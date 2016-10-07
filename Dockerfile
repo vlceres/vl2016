@@ -50,7 +50,7 @@ RUN jupyter contrib nbextension install --user
 
 RUN jupyter nbextension enable --py --sys-prefix widgetsnbextension
 
-RUN curl http://www.cr.chiba-u.jp/~kuze-lab/temporary/VL.tar.bz2 | tar -xjC /root/
+RUN curl http://www.cr.chiba-u.jp/~kuze-lab/temporary/VL2016.tar.bz2 | tar -xjC /root/
 
 COPY exercise_main.js /root/.local/share/jupyter/nbextensions/exercise/main.js
 
@@ -68,7 +68,7 @@ RUN ipython profile create
 
 RUN echo "c.InlineBackend.rc = {'image.cmap':'gray'}" >>/root/.ipython/profile_default/ipython_config.py
 
-WORKDIR /root/VL
+WORKDIR /root/VL2016
 
 EXPOSE 8888
 
